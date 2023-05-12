@@ -1,0 +1,58 @@
+body {
+    background-color: blueviolet;
+}
+
+.cont {
+    border-radius: 25px;
+}
+
+.author .name {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+a {
+
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid lightblue;
+}
+
+a:hover {
+   
+    background-color:black;
+    color: white;
+}
+a:active{
+    background-color: black;
+    color: white;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+}
+
+.tag i {
+    font-size: 10px;
+}
+
+.tag i:first-child {
+    margin: 3px 10px 0 0;
+
+}
+
+.tag i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+
+}
+
+.quote {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-break: break-all;
+
+}
